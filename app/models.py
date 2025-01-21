@@ -1,6 +1,6 @@
 from pydantic import BaseModel
 
-class TextInput(BaseModel):
+class TextRequest(BaseModel):
     text: str
     task: str
 
